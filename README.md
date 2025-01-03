@@ -1,7 +1,7 @@
 # go_back_N_Protocol
  It is part of the Automatic Repeat reQuest (ARQ) family of protocols.
 
- Key Features:
+Key Features:
 	1.	Sliding Window Mechanism:
 	•	The sender maintains a window of size N that controls the number of frames it can send without waiting for an acknowledgment (ACK).
 	•	The receiver can only accept frames in order, even if frames arrive out of sequence.
